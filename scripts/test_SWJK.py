@@ -2,7 +2,7 @@ import unittest
 import pytest
 import allure
 import time
-import operations
+#import operations
 from operations.operations_swjk_manager.swjk_manager import Testswjkmanager
 from eles.get_driver import GetDriver
 
@@ -15,6 +15,7 @@ class TestSWJKManager(unittest.TestCase):
         cls.sw = Testswjkmanager(cls.driver)
         cls.sw.system_login()
 
+
     @classmethod
     def tearDownClass(cls) -> None:
         GetDriver().quit_driver()
@@ -26,7 +27,7 @@ class TestSWJKManager(unittest.TestCase):
         self.sw.hydrology_manager_history_search()
         time.sleep(1)
 
-    @allure.step(title="水文监控管理下的历史数据模块的重置功能")
+    #@allure.step(title="水文监控管理下的历史数据模块的重置功能")
     @pytest.mark.run(order=2)
     def test_sw_2history_reset(self):
         self.sw.hydrology_manager_history_reset()
