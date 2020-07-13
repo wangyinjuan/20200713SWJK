@@ -1,0 +1,113 @@
+{
+  "uid" : "735fea7cc52f400e",
+  "name" : "test_gj_1viewfive",
+  "fullName" : "src.test_LSGJ.TestLSGJ#test_gj_1viewfive",
+  "historyId" : "38bd0cfb44ffa3054cf03a6af1179858",
+  "time" : {
+    "start" : 1594274122029,
+    "stop" : 1594274128573,
+    "duration" : 6544
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup",
+    "time" : {
+      "start" : 1594274097989,
+      "stop" : 1594274122029,
+      "duration" : 24040
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "历史告警前后5分钟数据查看关闭功能",
+      "time" : {
+        "start" : 1594274122029,
+        "stop" : 1594274128573,
+        "duration" : 6544
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup::0",
+    "time" : {
+      "start" : 1594274139753,
+      "stop" : 1594274143880,
+      "duration" : 4127
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "src"
+  }, {
+    "name" : "suite",
+    "value" : "test_LSGJ"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLSGJ"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8QNSGQT"
+  }, {
+    "name" : "thread",
+    "value" : "14548-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test_LSGJ"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "735fea7cc52f400e.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,113 @@
+{
+  "uid" : "fe70034fea71bfbb",
+  "name" : "test_sw_1history",
+  "fullName" : "src.test_SWJK.TestSWJKManager#test_sw_1history",
+  "historyId" : "dd3f0ba4fe31827dfae717dac57a79b6",
+  "time" : {
+    "start" : 1594274226622,
+    "stop" : 1594274248326,
+    "duration" : 21704
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup",
+    "time" : {
+      "start" : 1594274202515,
+      "stop" : 1594274226621,
+      "duration" : 24106
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "水文监控管理下的历史数据模块的查询功能",
+      "time" : {
+        "start" : 1594274226623,
+        "stop" : 1594274248326,
+        "duration" : 21703
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup::0",
+    "time" : {
+      "start" : 1594274291107,
+      "stop" : 1594274295252,
+      "duration" : 4145
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "src"
+  }, {
+    "name" : "suite",
+    "value" : "test_SWJK"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSWJKManager"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8QNSGQT"
+  }, {
+    "name" : "thread",
+    "value" : "14548-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test_SWJK"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "fe70034fea71bfbb.json",
+  "parameterValues" : [ ]
+}

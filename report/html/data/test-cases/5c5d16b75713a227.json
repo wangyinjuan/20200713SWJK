@@ -1,0 +1,113 @@
+{
+  "uid" : "5c5d16b75713a227",
+  "name" : "test_sw_2history_reset",
+  "fullName" : "src.test_SWJK.TestSWJKManager#test_sw_2history_reset",
+  "historyId" : "5cb0385658ba6ac2eb2b954b71db060b",
+  "time" : {
+    "start" : 1594274248331,
+    "stop" : 1594274270993,
+    "duration" : 22662
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup",
+    "time" : {
+      "start" : 1594274202515,
+      "stop" : 1594274226621,
+      "duration" : 24106
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "水文监控管理下的历史数据模块的重置功能",
+      "time" : {
+        "start" : 1594274248331,
+        "stop" : 1594274270993,
+        "duration" : 22662
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup::0",
+    "time" : {
+      "start" : 1594274291107,
+      "stop" : 1594274295252,
+      "duration" : 4145
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "src"
+  }, {
+    "name" : "suite",
+    "value" : "test_SWJK"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSWJKManager"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8QNSGQT"
+  }, {
+    "name" : "thread",
+    "value" : "14548-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test_SWJK"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=2)" ]
+  },
+  "source" : "5c5d16b75713a227.json",
+  "parameterValues" : [ ]
+}

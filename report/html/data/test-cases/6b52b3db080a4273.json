@@ -1,0 +1,113 @@
+{
+  "uid" : "6b52b3db080a4273",
+  "name" : "test_xtsz_other_update",
+  "fullName" : "src.test_XTSZ.TestXTSZ#test_xtsz_other_update",
+  "historyId" : "7f33eaeca38338ca3f366bfcb241ffda",
+  "time" : {
+    "start" : 1594274359812,
+    "stop" : 1594274424817,
+    "duration" : 65005
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup",
+    "time" : {
+      "start" : 1594274335659,
+      "stop" : 1594274359812,
+      "duration" : 24153
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "系统设置模块下的其他tab参数修改保存功能",
+      "time" : {
+        "start" : 1594274359812,
+        "stop" : 1594274424817,
+        "duration" : 65005
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup::0",
+    "time" : {
+      "start" : 1594274444923,
+      "stop" : 1594274449106,
+      "duration" : 4183
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "src"
+  }, {
+    "name" : "suite",
+    "value" : "test_XTSZ"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestXTSZ"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8QNSGQT"
+  }, {
+    "name" : "thread",
+    "value" : "14548-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test_XTSZ"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=2)" ]
+  },
+  "source" : "6b52b3db080a4273.json",
+  "parameterValues" : [ ]
+}
